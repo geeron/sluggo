@@ -41,6 +41,16 @@ To run the tests, use the following command:
 deno test
 ```
 
+## Contributing
+
+We welcome contributions from the community! If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them with clear and concise messages.
+4. Push your changes to your fork.
+5. Open a pull request to the main repository.
+
 ## License
 
 This project is licensed under the MIT License.
