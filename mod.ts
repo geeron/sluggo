@@ -1,5 +1,15 @@
-type SlugOptions = {
+/**
+ * Options for customizing the behavior of the `sluggo` function.
+ */
+export type SlugOptions = {
+  /**
+   * The character to use as a separator between words. Defaults to '-'.
+   */
   separator?: string
+
+  /**
+   * Whether to convert the slug to uppercase. Defaults to false.
+   */
   uppercase?: boolean
 }
 
