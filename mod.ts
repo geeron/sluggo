@@ -24,15 +24,21 @@ export type SlugOptions = {
  *
  * @example
  * // Basic usage
+ * ```ts
  * console.log(sluggo('Hello World')) // 'hello-world'
+ * ```
  *
  * @example
  * // Custom separator
+ * ```ts
  * console.log(sluggo('Hello World', { separator: '_' })) // 'hello_world'
- *
+ * ```
+
  * @example
  * // Uppercase slug
+ * ```ts
  * console.log(sluggo('Hello World', { uppercase: true })) // 'HELLO-WORLD'
+ * ```
  */
 export function sluggo(string: string, options?: SlugOptions): string {
   const separator = options?.separator || '-'
