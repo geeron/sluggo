@@ -23,19 +23,19 @@ export type SlugOptions = {
  * @returns {string} The converted slug.
  *
  * @example
- * // Basic usage
+ * Basic usage
  * ```ts
  * console.log(sluggo('Hello World')) // 'hello-world'
  * ```
  *
  * @example
- * // Custom separator
+ * Custom separator
  * ```ts
  * console.log(sluggo('Hello World', { separator: '_' })) // 'hello_world'
  * ```
 
  * @example
- * // Uppercase slug
+ * Uppercase slug
  * ```ts
  * console.log(sluggo('Hello World', { uppercase: true })) // 'HELLO-WORLD'
  * ```

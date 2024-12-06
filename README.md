@@ -9,11 +9,11 @@ The `sluggo` function converts a string into a slug. You can customize the separ
 ### Example
 
 ```ts
-import { sluggo } from './mod.ts'
+import { sluggo } from '@geeron/sluggo'
 
-console.log(sluggo('Hello World')) // hello-world
-console.log(sluggo('Hello World', { separator: '_' })) // hello_world
-console.log(sluggo('Hello World', { uppercase: true })) // HELLO-WORLD
+sluggo('Hello World') // hello-world
+sluggo('Hello World', { separator: '_' }) // hello_world
+sluggo('Hello World', { uppercase: true }) // HELLO-WORLD
 ```
 
 ## API
